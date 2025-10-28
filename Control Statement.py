@@ -86,6 +86,6 @@ print(f"Average CGPA: {total_cgpa:.2f}")
 print("==============================")
 
 if total_cgpa >= 2.00:
-    print("🎉 Congratulations! You Passed the Semester!")
+    print("Congratulations! You Passed the Semester!")
 else:
-    print("😔 You Did Not Pass. Better Luck Next Time!")
+    print("You Did Not Pass. Better Luck Next Time!")
