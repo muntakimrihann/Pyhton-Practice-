@@ -1,6 +1,7 @@
 Name = input("Enter your Name: ")
-course_name1 = input("Enter Course Name: ")
+course_name1 = input("Enter Course 1 Name: ")
 mark1 = float(input(f"Enter your mark for {course_name1}: "))
+credit1 = float(input(f"Enter Credit Hours for {course_name1}: "))
 
 if 59.6 <= mark1 < 60:
     mark1 = 60
@@ -36,9 +37,11 @@ else:
 
 print(f"Your Grade in {course_name1}: {grade1}")
 print(f"CGPA in {course_name1}: {cgpa1}")
+print(f"Credit Hours: {credit1}")
 
-course_name2 = input("\nEnter Course Name: ")
+course_name2 = input("\nEnter Course 2 Name: ")
 mark2 = float(input(f"Enter your mark for {course_name2}: "))
+credit2 = float(input(f"Enter Credit Hours for {course_name2}: "))
 
 if 59.6 <= mark2 < 60:
     mark2 = 60
@@ -74,9 +77,11 @@ else:
 
 print(f"Your Grade in {course_name2}: {grade2}")
 print(f"CGPA in {course_name2}: {cgpa2}")
+print(f"Credit Hours: {credit2}")
 
-course_name3 = input("\nEnter Course Name: ")
+course_name3 = input("\nEnter Course 3 Name: ")
 mark3 = float(input(f"Enter your mark for {course_name3}: "))
+credit3 = float(input(f"Enter Credit Hours for {course_name3}: "))
 
 if 59.6 <= mark3 < 60:
     mark3 = 60
@@ -112,16 +117,16 @@ else:
 
 print(f"Your Grade in {course_name3}: {grade3}")
 print(f"CGPA in {course_name3}: {cgpa3}")
+print(f"Credit Hours: {credit3}")
 
-
-total_cgpa = (cgpa1 + cgpa2 + cgpa3) / 3
-
+total_credits = credit1 + credit2 + credit3
+weighted_cgpa = ((cgpa1 * credit1) + (cgpa2 * credit2) + (cgpa3 * credit3)) / total_credits
 
 print(f"Student Name: {Name}")
-print(f"Average CGPA: {total_cgpa:.2f}")
-r
+print(f"Total Credit Hours: {total_credits}")
+print(f"Weighted Average CGPA: {weighted_cgpa:.2f}")
 
-if total_cgpa >= 2.00:
+if weighted_cgpa >= 2.00:
     print("Congratulations! You Passed the Semester!")
 else:
-    print("You Did Not Pass. You're in Probation!")
+    print("You Did Not Pass. You're on Academic Probation!")
