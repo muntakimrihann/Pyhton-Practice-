@@ -280,9 +280,6 @@ def ai_smart_move(b):
     # Last resort
     return random.choice(available_moves(b))
 
-# -----------------------
-# Animation helpers
-# -----------------------
 def animate_symbol(index, player_char):
     # progressive animation for a newly placed symbol
     start = time.time()
