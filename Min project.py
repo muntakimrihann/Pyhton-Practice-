@@ -281,7 +281,7 @@ def ai_smart_move(b):
     return random.choice(available_moves(b))
 
 def animate_symbol(index, player_char):
-    # progressive animation for a newly placed symbol
+
     start = time.time()
     duration = 0.25  # seconds
     while True:
@@ -309,7 +309,6 @@ def animate_symbol(index, player_char):
         if t >= 1.0:
             break
 
-# small wrappers using same drawing logic as earlier drawing functions
 def draw_x_animated(x,y,size,progress):
     pad = size // 6
     x1, y1 = x + pad, y + pad
@@ -365,9 +364,6 @@ def highlight_win_line(combo):
         if t >= 1.0:
             break
 
-# -----------------------
-# Main loop helpers
-# -----------------------
 def reset_board():
     global board, game_over, winner, winning_combo
     board = [EMPTY] * 9
