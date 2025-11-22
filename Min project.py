@@ -501,7 +501,7 @@ def main():
                         game_over = True
                         scores["Draws"] += 1
 
-        # if game over, highlight and update scores
+
         if game_over and winning_combo:
             highlight_win_line(winning_combo)
             if winner == PLAYER:
@@ -511,7 +511,7 @@ def main():
             # reset winning combo to avoid repeated highlight animations
             winning_combo = None
 
-        # draw "computer thinking" small indicator
+
         if ai_thinking and not player_turn and not game_over:
             text = font.render("Computer is thinking...", True, (80,80,80))
             screen.blit(text, (WIDTH-220, GRID_SIZE*CELL + 60))
