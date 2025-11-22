@@ -489,7 +489,7 @@ def main():
                     do_ai_move()
                     ai_thinking = False
                     player_turn = True
-                    # check winner after AI move
+
                     w, combo = check_winner_state(board)
                     if w == AI:
                         winner = AI
