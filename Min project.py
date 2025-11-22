@@ -508,7 +508,7 @@ def main():
                 scores["Player"] += 1
             elif winner == AI:
                 scores["Computer"] += 1
-            # reset winning combo to avoid repeated highlight animations
+
             winning_combo = None
 
 
