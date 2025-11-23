@@ -421,9 +421,7 @@ def draw_end_message():
     txt = big_font.render(msg, True, col)
     screen.blit(txt, (WIDTH//2 - txt.get_width()//2, GRID_SIZE*CELL + 110))
 
-# -----------------------
-# Main Loop
-# -----------------------
+
 def main():
     global game_over, winner, winning_combo, ai_thinking, last_move_time
 
