@@ -448,7 +448,7 @@ def main():
                 break
             if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                 mx,my = event.pos
-                # check button clicks
+
                 if RESTART_RECT.collidepoint(mx,my):
                     reset_board()
                     player_turn = True
