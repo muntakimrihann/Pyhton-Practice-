@@ -382,7 +382,7 @@ def handle_player_move(pos):
 
 def do_ai_move():
     global board
-    # compute AI move on current board copy
+
     move = ai_smart_move(board)
     # place and animate
     board[move] = AI
