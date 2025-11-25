@@ -298,7 +298,7 @@ def animate_symbol(index, player_char):
                 draw_x_animated(x, y, w, 1.0)
             elif v == 'O':
                 draw_o_animated(x, y, w, 1.0)
-        # draw current with progress t
+
         x,y,w,h = index_to_cell(index)
         if player_char == 'X':
             draw_x_animated(x, y, w, t)
