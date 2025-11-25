@@ -277,7 +277,7 @@ def ai_smart_move(b):
             move = m
     if move is not None:
         return move
-    # Last resort
+
     return random.choice(available_moves(b))
 
 def animate_symbol(index, player_char):
