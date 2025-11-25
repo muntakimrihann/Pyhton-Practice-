@@ -190,7 +190,7 @@ def choose_opposite_corner(b, opponent):
             return b2
     return None
 
-# Minimax for final fallback and to evaluate positions
+
 def minimax_eval(b, is_max):
     w, _ = check_winner_state(b)
     if w == AI:
