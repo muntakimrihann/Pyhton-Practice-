@@ -1,7 +1,6 @@
 balance = 5000
 
 print("🏦 Welcome to Python Bank 🏦")
-
 while True:
     print("\n Main Menu ")
     print("1. Check Balance")
