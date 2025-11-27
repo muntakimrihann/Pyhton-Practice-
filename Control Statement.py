@@ -5,7 +5,6 @@ mark1 = float(input(f"Enter your mark for {course_name1}: "))
 
 if 59.6 <= mark1 < 60:
     mark1 = 60
-
 if mark1 >= 60:
     if 60 <= mark1 < 70:
         cgpa1 = 1.00
