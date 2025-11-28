@@ -1,7 +1,7 @@
 
 num1=20
 num2=45
-#print(f"{num1} + {num2} = {num1+num2}")
+
 
 print("Md Muntakim Mizan Rihan.",end="")
 print("@202dsf ")
