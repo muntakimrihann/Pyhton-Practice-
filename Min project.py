@@ -4,7 +4,6 @@ import time
 import random
 from copy import deepcopy
 
-
 pygame.init()
 WIDTH, HEIGHT = 600, 700
 GRID_SIZE = 3
