@@ -22,7 +22,6 @@ clock = pygame.time.Clock()
 font = pygame.font.SysFont(None, 28)
 big_font = pygame.font.SysFont(None, 44)
 
-
 EMPTY = ' '
 PLAYER = 'X'  # human
 AI = 'O'      # computer
