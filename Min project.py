@@ -34,7 +34,6 @@ winning_combo = None
 ai_thinking = False
 last_move_time = 0
 
-# UI buttons rects
 RESTART_RECT = pygame.Rect(20, HEIGHT-80, 120, 50)
 RESET_SCORE_RECT = pygame.Rect(160, HEIGHT-80, 160, 50)
 EXIT_RECT = pygame.Rect(WIDTH-140, HEIGHT-80, 120, 50)
