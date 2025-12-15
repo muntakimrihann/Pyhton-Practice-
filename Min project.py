@@ -187,7 +187,6 @@ def choose_opposite_corner(b, opponent):
             return b2
     return None
 
-
 def minimax_eval(b, is_max):
     w, _ = check_winner_state(b)
     if w == AI:
