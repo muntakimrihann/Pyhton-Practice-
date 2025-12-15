@@ -119,7 +119,6 @@ def check_winner_state(b):
         return 'Draw', None
     return None, None
 
-
 # AI: smart trick moves + minimax fallback
 
 def available_moves(b):
