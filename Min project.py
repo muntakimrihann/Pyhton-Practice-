@@ -501,7 +501,6 @@ def main():
 
             winning_combo = None
 
-
         if ai_thinking and not player_turn and not game_over:
             text = font.render("Computer is thinking...", True, (80,80,80))
             screen.blit(text, (WIDTH-220, GRID_SIZE*CELL + 60))
