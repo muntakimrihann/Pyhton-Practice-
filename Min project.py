@@ -38,7 +38,6 @@ RESTART_RECT = pygame.Rect(20, HEIGHT-80, 120, 50)
 RESET_SCORE_RECT = pygame.Rect(160, HEIGHT-80, 160, 50)
 EXIT_RECT = pygame.Rect(WIDTH-140, HEIGHT-80, 120, 50)
 
-
 def draw_grid():
     gap = CELL
     for i in range(1, GRID_SIZE):
