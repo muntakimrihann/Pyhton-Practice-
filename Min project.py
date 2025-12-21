@@ -118,7 +118,7 @@ def check_winner_state(b):
         return 'Draw', None
     return None, None
 
-# AI: smart trick moves + minimax fallback
+# AI: smart trick moves 
 
 def available_moves(b):
     return [i for i, v in enumerate(b) if v == EMPTY]
