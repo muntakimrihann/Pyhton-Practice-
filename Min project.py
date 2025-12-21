@@ -228,7 +228,7 @@ def ai_smart_move(b):
     # 4) Block opponent's fork
     opp_fork = find_fork_move(b, PLAYER)
     if opp_fork is not None:
-        # try to block by creating a 2-in-row forcing opponent to block
+        # try to block by creating a 2-in-row, forcing opponent to block
         # if center available -> take center
         c = choose_center(b)
         if c is not None:
