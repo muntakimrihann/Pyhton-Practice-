@@ -490,7 +490,6 @@ def main():
                         game_over = True
                         scores["Draws"] += 1
 
-
         if game_over and winning_combo:
             highlight_win_line(winning_combo)
             if winner == PLAYER:
