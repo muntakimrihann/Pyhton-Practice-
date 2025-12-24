@@ -239,7 +239,7 @@ def ai_smart_move(b):
             return s
         # else fallback
         return opp_fork
-
+        
     # 5) Take center
     c = choose_center(b)
     if c is not None:
