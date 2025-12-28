@@ -382,7 +382,6 @@ def do_ai_move():
     board[move] = AI
     animate_symbol(move, AI)
 
-
 def draw_ui():
     # area below grid
     pygame.draw.rect(screen, BG_COLOR, (0, GRID_SIZE*CELL, WIDTH, HEIGHT - GRID_SIZE*CELL))
