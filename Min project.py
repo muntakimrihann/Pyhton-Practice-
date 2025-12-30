@@ -449,7 +449,7 @@ def main():
                     running = False
                     break
 
-                # only allow clicks on grid area when not game over
+                # only allow clicks on the grid area when not game over
                 if my < GRID_SIZE*CELL and not game_over and player_turn:
                     if handle_player_move((mx,my)):  # valid player move
                         player_turn = False
@@ -466,7 +466,7 @@ def main():
                             game_over = True
                             scores["Draws"] += 1
 
-        # AI move handling with slight delay to show "thinking"
+        # AI move handling with a slight delay to show "thinking."
         if not player_turn and not game_over:
             # ai thinking effect
             if not ai_thinking:
