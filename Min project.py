@@ -465,7 +465,7 @@ def main():
                             winning_combo = None
                             game_over = True
                             scores["Draws"] += 1
-
+                            
         # AI move handling with a slight delay to show "thinking."
         if not player_turn and not game_over:
             # ai thinking effect
