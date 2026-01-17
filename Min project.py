@@ -24,7 +24,7 @@ big_font = pygame.font.SysFont(None, 44)
 
 EMPTY = ' '
 PLAYER = 'X'  # human
-AI = 'O'      # computer
+AI = 'O'     # computer
 
 board = [EMPTY] * 9
 scores = {"Player": 0, "Computer": 0, "Draws": 0}
