@@ -104,7 +104,7 @@ def render_board(animate=False, anim_progress_map=None):
             if animate and anim_progress_map and i in anim_progress_map:
                 p = anim_progress_map[i]
             draw_o(x, y, w, p)
-
+            
 def check_winner_state(b):
     wins = [
         (0,1,2),(3,4,5),(6,7,8),
