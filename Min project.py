@@ -60,7 +60,7 @@ def draw_x(x, y, size, progress=1.0):
     x2, y2 = x + size - pad, y + size - pad
     x3, y3 = x + size - pad, y + pad
     x4, y4 = x + pad, y + size - pad
-    # draw first line
+    # draw first line 
     midx = x1 + (x2 - x1) * min(progress, 0.5) * 2
     midy = y1 + (y2 - y1) * min(progress, 0.5) * 2
     if progress > 0:
