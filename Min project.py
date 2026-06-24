@@ -91,7 +91,7 @@ def draw_o(x, y, size, progress=1.0):
         pygame.draw.lines(screen, O_COLOR, False, points, 8)
 
 def render_board(animate=False, anim_progress_map=None):
-    # anim_progress_map: dict idx -> progress (0..1)
+    # anim_progress_map: dict idx ->  progress (0..1)
     for i, v in enumerate(board):
         x, y, w, h = index_to_cell(i)
         if v == 'X':
