@@ -52,7 +52,7 @@ def index_to_cell(i):
     x = col * CELL
     y = row * CELL
     return x, y, CELL, CELL
-
+    
 def draw_x(x, y, size, progress=1.0):
     # animate two lines progressively by progress (0..1)
     pad = size // 6
