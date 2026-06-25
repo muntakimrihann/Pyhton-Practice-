@@ -23,7 +23,7 @@ font = pygame.font.SysFont(None, 28)
 big_font = pygame.font.SysFont(None, 44)
 
 EMPTY = ' '
-PLAYER = 'X'  
+PLAYER = 'X' 
 AI = 'O'     
 
 board = [EMPTY] * 9
