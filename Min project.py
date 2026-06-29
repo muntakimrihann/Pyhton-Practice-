@@ -152,7 +152,7 @@ def count_two_in_row(b, player):
 def find_fork_move(b, player):
     for m in available_moves(b):
         nb = make_move(b, m, player)
-        # after move if player has 2+ winning chances -> fork
+        # after move if player has 2+ winning chances -> fork 
         wins = 0
         for m2 in available_moves(nb):
             nb2 = make_move(nb, m2, player)
