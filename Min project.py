@@ -119,7 +119,6 @@ def check_winner_state(b):
     return None, None
 
 # AI: smart trick move
-
 def available_moves(b):
     return [i for i, v in enumerate(b) if v == EMPTY]
 
