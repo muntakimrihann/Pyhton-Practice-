@@ -76,7 +76,7 @@ def draw_o(x, y, size, progress=1.0):
     # draw circle arc according to progress (0..1)
     center = (x + size//2, y + size//2)  
     radius = size//2 - size//6
-    # approximate arc by drawing many small lines
+    # approximate arc by drawing many small lines    
     segments = int(80 * progress)
     if segments < 2:
         return
