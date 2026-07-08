@@ -130,6 +130,7 @@ def make_move(b, idx, player):
 def can_win_next(b, player):
     for m in available_moves(b):
         nb = make_move(b, m, player)
+        
         w, _ = check_winner_state(nb)
         if w == player:
             return m
